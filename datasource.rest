@@ -1,0 +1,11 @@
+####
+PUT https://grup7azsearch.search.windows.net/datasources/margiesds?api-version=2019-05-06 
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+
+{   
+    "name" : "margiesds",   
+    "type" : "azureblob",
+    "credentials" : { "connectionString" : "DefaultEndpointsProtocol=https;AccountName=g7storage;AccountKey=b/oBkUMQ7E/dVHNwfQ8cZx3AK+7zvkm6uN3MJjlX96fOPfSGlyOaemix79X3uaYoQHSwmlKTj3asy39Js0R6Aw==;EndpointSuffix=core.windows.net" },  
+    "container" : { "name" : "margies" }
+}  
