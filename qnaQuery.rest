@@ -1,0 +1,5 @@
+POST https://team7qna2.azurewebsites.net/qnamaker/knowledgebases/2fbfe11b-92e1-4d99-83bf-6264131b3a67/generateAnswer
+Authorization: EndpointKey 65389574-cfcc-41d6-b112-f47a5388462d
+Content-Type: application/json
+
+{"question":"How can I cancel my hotel reservation?"}

@@ -1,0 +1,26 @@
+PUT https://grup7azsearch.search.windows.net/indexers/margiesidxr?api-version=2019-05-06 
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+
+{   
+    "name" : "margiesidxr",
+    "dataSourceName" : "margiesds",  
+    "targetIndexName" : "margiesidx",
+    "fieldMappings" : [
+        { "sourceFieldName" : "metadata_storage_path", "targetFieldName" : "id",
+          "mappingFunction": {
+              "name": "base64Encode"
+          } },
+        { "sourceFieldName" : "metadata_storage_path", "targetFieldName" : "url" },
+        { "sourceFieldName" : "metadata_storage_name", "targetFieldName" : "file_name" },
+        { "sourceFieldName" : "content", "targetFieldName" : "content" },
+        { "sourceFieldName" : "metadata_storage_size", "targetFieldName" : "size" },
+        { "sourceFieldName" : "metadata_storage_last_modified", "targetFieldName" : "last_modified" }
+    ]
+}
+
+
+#####
+
+POST https://grup7azsearch.search.windows.net/indexers/margiesidxr/run?api-version=2019-05-06
+    api-key: D1B2DF3F5AC1482E5557FE00092E2677
