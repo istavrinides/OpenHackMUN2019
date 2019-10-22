@@ -1,6 +1,6 @@
 
 PUT https://grup7azsearch.search.windows.net/indexes/margiesidx?api-version=2019-05-06 
-Content-Type: application/json2  
+Content-Type: application/json  
 api-key: D1B2DF3F5AC1482E5557FE00092E2677
 
 {  
