@@ -1,0 +1,3 @@
+GET https://grup7azsearch.search.windows.net/indexes/margiesidxv5/docs/suggest?api-version=2019-05-06&search=Buck&suggesterName=LocationSuggester  
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
