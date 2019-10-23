@@ -1,0 +1,177 @@
+PUT https://grup7azsearch.search.windows.net/skillsets/margiescustom?api-version=2019-05-06
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+Content-Type: application/json
+
+{   
+    "name" : "margiescustom",
+    "skills" : [
+        {
+        "description": "Extracts text (plain and structured) from image.",
+        "@odata.type": "#Microsoft.Skills.Vision.OcrSkill",
+        "context": "/document/normalized_images/*",
+        "defaultLanguageCode": "en",
+        "detectOrientation": true,
+        "inputs": [
+            {
+            "name": "image",
+            "source": "/document/normalized_images/*"
+            }
+        ],
+        "outputs": [
+            {
+            "name": "text",
+            "targetName": "myText"
+            }
+        ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.MergeSkill",
+            "description": "Create merged_text, which includes all the textual representation of each image inserted at the right location in the content field.",
+            "context": "/document",
+            "insertPreTag": " ",
+            "insertPostTag": " ",
+            "inputs": [
+                {
+                "name":"text", "source": "/document/content"
+                },
+                {
+                "name": "itemsToInsert", "source": "/document/normalized_images/*/myText"
+                },
+                {
+                "name":"offsets", "source": "/document/normalized_images/*/contentOffset"
+                }
+            ],
+            "outputs": [
+                {
+                "name": "mergedText", "targetName" : "merged_text"
+                }
+            ]
+        },
+        {
+            "description": "Extract image analysis.",
+            "@odata.type": "#Microsoft.Skills.Vision.ImageAnalysisSkill",
+            "context": "/document/normalized_images/*",
+            "defaultLanguageCode": "en",
+            "visualFeatures": [
+                "Tags",
+                "Categories",
+                "Description",
+                "Faces"
+            ],
+            "inputs": [
+                {
+                    "name": "image",
+                    "source": "/document/normalized_images/*"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "categories"
+                },
+                {
+                    "name": "tags"
+                },
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "faces"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.EntityRecognitionSkill",
+            "context": "/document",
+            "categories": [ "Organization", "Person", "Location", "URL", "Datetime"  ],
+            "defaultLanguageCode": "en",
+            "inputs": [
+                {
+                "name": "text",
+                "source": "/document/merged_text"
+                }
+            ],
+            "outputs": [
+                {
+                "name": "organizations",
+                "targetName": "organizations"
+                },
+                {
+                "name": "persons",
+                "targetName": "persons"
+                },
+                {
+                "name": "locations",
+                "targetName": "locations"
+                },
+                {
+                "name": "urls",
+                "targetName": "urls"
+                },
+                {
+                "name": "dateTimes",
+                "targetName": "dateTimes"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.SentimentSkill",
+            "inputs": [
+                {
+                "name": "text",
+                "source": "/document/content"
+                }
+            ],
+            "outputs": [
+                {
+                "name": "score",
+                "targetName": "mySentiment"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+            "context": "/document",
+            "defaultLanguageCode": "en",
+            "inputs": [
+            {
+                "name": "text",
+                "source": "/document/content"
+            }
+            ],
+            "outputs": [
+            {
+                "name": "keyPhrases",
+                "targetName": "myKeyPhrases"
+            }
+            ]
+        },
+         {
+        "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+        "description": "Our new Bing entity search custom skill",
+        "uri": "https://customskillsfunc.azurewebsites.net/api/HttpTrigger?code=ncuePAx4zrFa1dGaTBxsZ3PSWwYwZaqzlMimFzIozI7UqSPefk78mQ==",
+          "context": "/document",
+          "inputs": [
+            {
+              "name": "merged_text",
+              "source": "/document/merged_text"
+            }
+          ],
+          "outputs": [
+            {
+              "name": "word_count",
+              "targetName": "top_words"
+            }
+          ]
+        } 
+    ],
+    "cognitiveServices": {
+    	"@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+    	"description": "margiescognitive",
+    	"key": "770459acba9b4f5e9af5af69a47d5f3b"
+    }
+}
+
+
+#### 
+DELETE https://grup7azsearch.search.windows.net/skillsets/margiescustom?api-version=2019-05-06
+    api-key: D1B2DF3F5AC1482E5557FE00092E2677
