@@ -1,0 +1,177 @@
+{
+    "@odata.context": "https://grup7azsearch.search.windows.net/indexes('margiesidx')/$metadata#docs(*)",
+    "@odata.count": 19,
+    "value": [
+        {
+            "@search.score": 1.6601684,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL2NvbGxhdGVyYWwvTmV3JTIwWW9yayUyMEJyb2NodXJlLnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/collateral/New%20York%20Brochure.pdf",
+            "file_name": "New York Brochure.pdf",
+            "content": "\nMargie’s Travel Presents… \n\nNew York \nThe City of New York, often called New York City or simply \n\nNew York, is the most populous city in the United States. \n\nWith an estimated 2015 population of 8,550,405 distributed \n\nover a land area of about 302.6 square miles, New York \n\nCity is also the most densely populated major city in the \n\nUnited States. Located at the southern tip of the state of \n\nNew York, the city is the center of the New York \n\nmetropolitan area, one of the most populous urban \n\nagglomerations in the world. A global power city, New York \n\nCity exerts a significant impact upon commerce, finance, \n\nmedia, art, fashion, research, technology, education, and \n\nentertainment, its fast pace defining the term New York \n\nminute. Home to the headquarters of the United Nations, \n\nNew York is an important center for international diplomacy \n\nand has been described as the cultural and financial capital \n\nof the world. \n\n \n\nNew York Hotels \n\nMargie’s Travel offers the following accommodation options \n\nin New York: \n\nThe Manhattan Hotel \n\nStay in the heart of New York City, within an easy walk to \n\nTimes Square and Broadway. \n\nThe Grand Central Hotel \n\nComfortable mid-town hotel. Close to Grand Central \n\nStation, the Chrysler Building, and the Empire State \n\nBuilding. \n\nThe Park Hotel \n\nLuxurious accommodation in upper Manhattan, with views \n\nof Central Park. \n\n \n\n \n\nTo book your trip to New York, visit www.margiestravel.com \n\n \n\n\n",
+            "size": 384954,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.18422073,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODE1LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201815.pdf",
+            "file_name": "201815.pdf",
+            "content": "\nGreat Hotel with the best possible location \n\nThe Manhattan Hotel, New York, USA \n\n8/26/2018 \n\nI love the Manhattan Hotel for its location and the energy of New York city. The hotel is well kept \n\nand the room size is large for a typical New York City hotel. I can't wait to get back \n\nReviewer: Hsiu-ying Zhuang \n\n\n",
+            "size": 111115,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.17333637,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODI4LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201828.pdf",
+            "file_name": "201828.pdf",
+            "content": "\nExcellent Location Comfortable and Friendly Hotel \n\nThe Grand Central Hotel, New York, USA \n\n10/14/2018 \n\nA perfect hotel for a girls shopping trip to the Big Apple. Located a short walk from Macys and a few \n\nblocks from the subway at Grand Central Station with the express trains to Uptown and Downtown \n\nManhattan. The rooms were a good size (by New York standards) with comfortable beds. The staff \n\nwere friendly and helpful and check-in/check-out was quick and straightforward. The rate was \n\nexcellent and included a more than adequate buffet style breakfast. I would happily stay at this hotel \n\nagain. \n\nReviewer: Ananta Nair \n\n\n",
+            "size": 113804,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.17333637,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODMzLnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201833.pdf",
+            "file_name": "201833.pdf",
+            "content": "\nFabulous location but not as fancy as I expected. \n\nThe Manhattan Hotel, New York, USA \n\n10/19/2018 \n\nThe room was not as luxurious as I was expecting. We've stayed in many nicer resorts. It was nice \n\nand the location is fabulous. You can walk to many New York landmarks. There were a couple of \n\nminor maintenance issues that needed attention. The front desk employees were more helpful than \n\nthe concierge. I would stay there again because of the location. There was a breakfast available on \n\nsite, but it seemed very pricey for what was offered. There were several good restaurants close by \n\nthat the front desk directed us to. \n\nReviewer: Manami Sato \n\n\n",
+            "size": 112332,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.13166708,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL2NvbGxhdGVyYWwvTWFyZ2llcyUyMFRyYXZlbCUyMENvbXBhbnklMjBJbmZvLnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/collateral/Margies%20Travel%20Company%20Info.pdf",
+            "file_name": "Margies Travel Company Info.pdf",
+            "content": "\n \n\n \n\n \n\n \n\n \n \n\n \n\n \n\n \n\nWherever you want to go, Margie’s Travel can get you there! \n\nMargie’s Travel is a world-leading travel agency, combining international reach with local \n\nexpertise. Just tell us where you want to go, and we can arrange: \n\n• Flights \n\n• Accommodation \n\n• Transfers \n\n• Visas \n\n• Currency Exchange \n\n• Excursions \n\n \nWhere We Go \nWhile we can arrange travel to anywhere \nworldwide, we specialize in trips to: \n\n• Dubai \n\n• Las Vegas \n\n• London \n\n• New York \n\n• San Francisco \n\nWho We Are \nMargie’s Travel employs some of the \nbest travel experts in the world. Our \nleadership team consists of: \n\n• Marjorie Long (CEO) \n\n• Logan Reid (CFO) \n\n• Emma Luffman (CTO) \n\n• Deepak Nadar (Strategic Director) \n\n \n\nTo learn more about us, visit our website at www.margiestravel.com \n\n\n",
+            "size": 354991,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.11620128,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODQ2LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201846.pdf",
+            "file_name": "201846.pdf",
+            "content": "\nGreat location miserable staff \n\nThe Park Hotel, New York, USA \n\n11/19/2018 \n\nJust spent 4 nights in this hotel , a group of 14 friends. Hotel is in a great location and rooms are \n\ncleaned to good standard. The housekeeping staff are very helpful and friendly but the reception \n\nstaff are miserable and rude ( with the exception of Fred). They completely mixed up the booking \n\nand blamed everyone else but themselves for their incompetence. Everyone was charged a different \n\nrate if they experienced breakfast dining and they made no excuses for the different charges. We \n\nbooked 2 triple rooms and 4 doubles and they took an extra $160 dollars from my sisters account for \n\na third bed which had already been paid for without letting her know . She discovered they had \n\ntaken the payment from her account when she got back home and she now has to try and get the \n\nmoney back. The conciege staff are no better. They might know a lot about New York but they know \n\nvery little about good customer service! Having said all that, we still had a great time. You just have \n\nto be very careful to check your bill before you leave! \n\nReviewer: Xin Liao \n\n\n",
+            "size": 117367,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.09860006,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODEzLnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201813.pdf",
+            "file_name": "201813.pdf",
+            "content": "\nExcellent location and value for money \n\nThe Manhattan Hotel, New York, USA \n\n8/11/2018 \n\nA last-minute booking but well worth it! Stayed here from 30 July for 10nts. Spacious rooms and \n\nfriendly staff. The beds are quite heavenly. Nothing much to say about the lobby and the elevators \n\nthough, but it's no biggie. We especially loved the business centre on the 26th floor - 5 computers \n\nreadily available for guests to use, and you can print, too. Times Square is just a 5 minute walk. Close \n\nto lots of shopping. Subway is almost next door (57th Street) - Columbus Circle is less than a 5min \n\nwalk. Very close to Central Park. We really liked this place. \n\nReviewer: Hamsa Nandamuri \n\n\n",
+            "size": 118903,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.096844345,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODYxLnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201861.pdf",
+            "file_name": "201861.pdf",
+            "content": "\nOld building just covered up existing problems. \n\nThe Park Hotel, New York, USA \n\n11/23/2018 \n\nThis hotel is right near everything that anyone new to New York may want to do. The hotel is kinda \n\ncool. Old looking on the outside and the lobby and bar have been updated nicely and there is a nice \n\natmosphere there. The rooms were not as cool. When I first walked into my room it smelled like the \n\npeople who had probably just checked out...bad. To remedy, I asked the nice housekeeper for some \n\nspray and she quickly went in and took care of the problem for me. She even adjusted the heat \n\nbecause she thought maybe the old heating system was circulating stagnant, old air. The bathroom \n\nwas roomy but you could see water stains at the top of the shower and the vent in there was dirty. \n\nAfter I went to sleep I swear the room smelled a little like pee but I was done complaining for the \n\nnight and new it really was just the air and maybe the carpet a bit. It looked ok but you can see that \n\nwallpaper had gone over shabby walls. The staff was really nice. They don't check people in until \n\nfour so it was a nice surprise when they tried to accommodate me and they let me check in at noon. \n\nI was happy about that and they also gave me an apple. :)If you use this hotel just maybe inspect \n\nyour room before finally settling down. They need some work but I wasn't that upset with it. \n\nReviewer: Violet Chambers \n\n\n",
+            "size": 117087,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.093719326,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODYwLnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201860.pdf",
+            "file_name": "201860.pdf",
+            "content": "\nVery Good \n\nThe Park Hotel, New York, USA \n\n11/23/2018 \n\nFound the staff very helpful with our situations of early check in, storage , cleaning and help with the \n\nin room safe. Super service. Very pleasant. Room was clean, beds comfortable, clean, nice linen, and \n\nvery nice room. Very busy hotel but quiet and very well organized staff. Lots of staff to ask questions \n\nof. Elavator was great with the touch screen. I missed in room coffee but lots of shops nearby, can \n\nthink of 3 offhand that sold coffee and econnomical meals and snacks. And the Deli almost next \n\ndoor. Great for people new to this city . Very happy with my choice of this hotel. \n\nReviewer: Roy Dibble \n\n\n",
+            "size": 105730,
+            "last_modified": "2019-10-22T09:12:17Z"
+        },
+        {
+            "@search.score": 0.09008185,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODM4LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201838.pdf",
+            "file_name": "201838.pdf",
+            "content": "\nGreat New York Boutique Hotel in quiet Neighbourhood \n\nThe Grand Central Hotel, New York, USA \n\n11/8/2018 \n\nThis is a lovely hotel in a great area of Manhattan. We were able to walk everywhere and we did just \n\nthat. Grand Central Station is only mins away as are various bars restaurants etc... Thoroughly \n\nrecommend Madison avenue for good value burgers and the like.... The room size is good the bed is \n\nabsolutely fabulously comfy and it was a lovely surprise for my husband to receive a bottle of bubbly \n\nand a small birthday cake shortly after checking in. Thank you very much !! The rooms were kept \n\nlovely and clean and we had a glass of wine each evening on the house between 5 and 6 another \n\nlovely touch. Would thoroughly recommend this hotel and next time we visit New York it will \n\ndefinitely be to this hotel. \n\nReviewer: Eunice Vinson \n\n\n",
+            "size": 114864,
+            "last_modified": "2019-10-22T09:12:17Z"
+        },
+        {
+            "@search.score": 0.06631388,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODI2LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201826.pdf",
+            "file_name": "201826.pdf",
+            "content": "\nCentrally Located \n\nThe Manhattan Hotel, New York, USA \n\n10/9/2018 \n\nOur experience staying at the Manhattan Hotel was pleasureable. We stayed in a one bedroom and \n\nit was spacious for New York standards. There was a fitness room on site,but we didn't use the \n\nfacilities. They served fresh coffee and tea and cookies from 11am - 4pm in their Owner's Lounge. \n\nIt's centrally located. We were able to walk to Central Park, Times Square, Broadway and subway \n\nentrances. \n\nReviewer: Aaron Burkholder \n\n\n",
+            "size": 110875,
+            "last_modified": "2019-10-22T09:12:19Z"
+        },
+        {
+            "@search.score": 0.056001153,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODY2LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201866.pdf",
+            "file_name": "201866.pdf",
+            "content": "\nGood and Bad \n\nThe Buckingham Hotel, London, UK \n\n12/29/2018 \n\nThe hotel used to be known as the St. James - a fact that most London cabbies will remind you of. It \n\nis a mystery why the owners chose to rename it with its street  - that is okay in New York but \n\napparently not in London according to taxi drivers. The hotel (apartments) boasts a 5 star 5 diamond \n\nlabel but probably needs some sprucing up to really merit that. For example, the elevator - sized like \n\na coffin - in the building adjacent to the main building has an old worn out carpet and has short jerky \n\nmovements and gets filled quickly resulting in waits at the ground level. On check-in the receptionist \n\npromised various newspapers the next morning besides the complimentary Independent only to find \n\nNOTHING delivered. The Independent did arrive on the second morning. The breakfast room is tiny \n\nand gets filled in rapidly on weekends with the staff valiantly trying to keep guests seated and served \n\nbut usually is unable to cope - example: cappuccino ordered showed up tepid and luke warm. \n\nEvidently it came from some place far away (probably the hotel next door which management does \n\nlittle to let on that it is part of the same ownership). On the plus side, great location - walking \n\ndistance to almost any part of central London. \n\nReviewer: Constance Kirkland \n\n\n",
+            "size": 114948,
+            "last_modified": "2019-10-22T09:12:19Z"
+        },
+        {
+            "@search.score": 0.05200878,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODMxLnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201831.pdf",
+            "file_name": "201831.pdf",
+            "content": "\nGreat location overall a nice experience with minor caveats \n\nThe Grand Central Hotel, New York, USA \n\n10/19/2018 \n\nOverall, a nicely-appointed good mid-price hotel in Midtown.Before you book, ask for a room on a \n\nhigher floor to avoid street noise. We were on 3 and had a sleepless first night. Staff moved us the \n\nnext day. Also be aware that the heat isn't turned on unless it drops below 45 degrees (friendly staff \n\nshared this with us.) When we asked for heat, they brought a space heater. Cozy rest of stay - so \n\nboth problems corrected.Would stay again if I had business in Midtown nearby. Wouldn't be my first \n\nchoice. \n\nReviewer: Tabitha Robertson \n\n\n",
+            "size": 120870,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.05200878,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODMyLnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201832.pdf",
+            "file_name": "201832.pdf",
+            "content": "\nGood choice for Murray Hill/Grand Central area \n\nThe Grand Central Hotel, New York, USA \n\n10/19/2018 \n\nHotel was well located and close to Grand Central Station - the room was on a non-view side but was \n\ndecent sized (as everyone else has said) for NYC, about 3 feet around the bed, which is okay. The \n\nmini-bar was well stocked and we did not hear any noise from the other rooms. Nice desk and \n\nfixtures in the room itself. The bathroom was not the greatest and the shower had low pressure, but \n\nthe bed was extremely comfortable. Staffing was strange - it seemed like there were only 2 people \n\nwho worked there - the bell captain and the reception desk person, and they had a hard time \n\nhandling the 4 people in the lobby when we got there - not sure if this was because it was a Sunday. \n\nReviewer: Rafael Howes \n\n\n",
+            "size": 118724,
+            "last_modified": "2019-10-22T09:12:18Z"
+        },
+        {
+            "@search.score": 0.046890993,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODU4LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201858.pdf",
+            "file_name": "201858.pdf",
+            "content": "\nLucky I didn't listen to negative reviews! \n\nThe Park Hotel, New York, USA \n\n11/22/2018 \n\nI almost cancelled my reservation for this hotel prior to my departure after reading the many \n\nnegative reviews here but given the great price for 5 nights at just US$1,300 including taxes , I took \n\nthe risk. After working for a week in LA, I went to New York for a bit of a break before heading back \n\nto Melbourne. It has been 13 years since my last visit there.After reading the many negative reviews, \n\nI prepared for the worst. I entered this large hotel and found the reception area nice, clean and \n\nspacious and the reception staff were very courteous and welcoming. Could this be the same hotel I \n\nwas reading about on Trip Advisor? They gave me my room key for the 17th floor and I was very \n\nnervous as I entered the key to open the door. I thought, how bad can the room be? To my shocked \n\nsurprise, the room was bigger than what I thought. The king size bed was massive, the widescreen \n\nTV was great and the room smelled nice. One last check was the bathroom and, lo and behold, not \n\none trace of fungus or odour and, for New York and for a single, it was big enough.I will definitely be \n\nstaying at this hotel again but I will be sure to get the same room as I heard other rooms on the \n\nlower levels may not be as nice. Given the rate, this hotel was a steal and the location was perfect. It \n\nwas great to leave the hotel at 7.30pm and walk just five minutes to a Broadway play starring Bill \n\nPullman and Julia Stiles starting at 8pm. Heaven! Only in New York! \n\nReviewer: Delia Barrera \n\n\n",
+            "size": 119046,
+            "last_modified": "2019-10-22T09:12:17Z"
+        },
+        {
+            "@search.score": 0.044800922,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL2NvbGxhdGVyYWwvU2FuJTIwRnJhbmNpc2NvJTIwQnJvY2h1cmUucGRm0",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/collateral/San%20Francisco%20Brochure.pdf",
+            "file_name": "San Francisco Brochure.pdf",
+            "content": "\nMargie’s Travel Presents… \n\nSan Francisco \nSan Francisco, officially the City and County of San \n\nFrancisco, is the cultural, commercial, and financial \n\ncenter of Northern California. It is the birthplace of \n\nthe United Nations. Located at the north end of the \n\nSan Francisco Peninsula, San Francisco is about \n\n47.9 square miles in area, making it the smallest \n\ncounty—and the only consolidated city-county—\n\nwithin the state of California. With a density of about \n\n18,581 people per square mile, San Francisco is the \n\nmost densely settled large city in California and the \n\nsecond-most densely populated major city in the \n\nUnited States after New York City. San Francisco is \n\nthe fourth-most populous city in California, after Los \n\nAngeles, San Diego, and San Jose, and the 13th-\n\nmost populous city in the United States—with a \n\ncensus-estimated 2016 population of 870,887. The \n\ncity and its surrounding areas are known as the San \n\nFrancisco Bay Area, and are a part of the larger \n\nOMB-designated San Jose-San Francisco-Oakland \n\ncombined statistical area, the fifth most populous in \n\nthe nation with an estimated population of 8.7 million. \n\n \n\nSan Francisco Hotels \n\nMargie’s Travel offers the following accommodation options \n\nin San Francisco: \n\nThe Lombard Hotel \n\nFriendly, family-run hotel within easy walking distance to \n\npopular sights, including the Golden Gate Bridge and the \n\nPresidio. Free Parking. \n\nThe Wharf Hotel \n\nGreat value accommodation in the heart of the vibrant \n\nFisherman’s Wharf area. Continental Breakfast included. \n\n \n\n \n\n \n\n \n\nTo book your trip to San Francisco, visit www.margiestravel.com \n\n \n\n\n",
+            "size": 387867,
+            "last_modified": "2019-10-22T09:12:19Z"
+        },
+        {
+            "@search.score": 0.035168245,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODI5LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201829.pdf",
+            "file_name": "201829.pdf",
+            "content": "\nDon't go there \n\nThe Grand Central Hotel, New York, USA \n\n10/15/2018 \n\nThe first room we were given was dark,very small and extremely noisy. The staff leave the radio on \n\nin the room in a vain attempt to drown it out ! We were told that we couldn't move as the hotel was \n\nfull that night. The receptionist seemed to be expecting our complaint and moved us the next day. \n\nThe source of the noise is a huge air conditioning unit belonging to another hotel. We were moved \n\nto a room ten floors directly above and the noise was still annoying. Do not stay here if you like \n\nsleeping at night !I would be surprised if the rooms we stayed in would meet UK standards due to \n\nthe noise levels. \n\nReviewer: Akanksha Hegde \n\n\n",
+            "size": 108155,
+            "last_modified": "2019-10-22T09:12:19Z"
+        },
+        {
+            "@search.score": 0.02930687,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODI1LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201825.pdf",
+            "file_name": "201825.pdf",
+            "content": "\nA Great Deal If You Can Get It. \n\nThe Manhattan Hotel, New York, USA \n\n10/7/2018 \n\nMy wife and I stayed for a week in September. This was our second stay here. Both times we were in \n\na one bedroom suite. The suite consists of a separate bedroom with a king bed, flat screen TV, \n\ncloset, plenty of drawers and a bathroom with tub and shower. Then there is a separate living room \n\nwith a TV, an eating area, a mini kitchen and another bathroom with a shower. There is daily maid \n\nservice, good towels and bath amenities. We were on the 25th floor with an east view and windows \n\nthat opened. The decor is functional, mid-level but clean and more than adequate. On our stay the \n\nelevators were running and our limited staff encounters were also fine. I read the mixed reviews. I \n\nknow they were having elevator problems but they are now ok. Of course, the location is the best. \n\nEasy walking distance to MOMA, Lincoln Center, Metropolitan Museum, Central Park, Whole Foods, \n\netc. Plenty of restaurants in walking distance and easy subway and bus access. \n\nReviewer: Leanne Cooper \n\n\n",
+            "size": 113193,
+            "last_modified": "2019-10-22T09:12:17Z"
+        },
+        {
+            "@search.score": 0.014032013,
+            "id": "aHR0cHM6Ly9nN3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L21hcmdpZXMvd2Vic2l0ZV9kb2NzL3Jldmlld3MvMjAxODA0LnBkZg2",
+            "url": "https://g7storage.blob.core.windows.net/margies/website_docs/reviews/201804.pdf",
+            "file_name": "201804.pdf",
+            "content": "\nGood value - Clean and Convenient \n\nThe Kensington Hotel, London, UK \n\n3/4/2018 \n\nI stayed two nights here and considered it good value for money. I'd certainly stay there again.I've \n\nstayed in several budget/tourist hotels in London over the years, and this was definitely one of the \n\nbetter ones. My (single) room was spotlessly clean, with a flat screen TV and new bathroom. It was \n\non the small side but this is to be expected in London budget hotels. One of it's little quirks was that I \n\nhad to run the shower for a couple of minutes to get hot water in the morning. The odd thing was \n\nthat the hot water in the sink came on straight away! My room was at the back on the third floor so \n\nnoise from outside wasn't a problem, although I noticed that the walls were pretty thin - I could hear \n\nthe people next door if they raised their voices.The Breakfast area was bright and recently \n\ndecorated. Breakfast consisted of juices, teabags and instant coffee, cereal, white and brown sliced \n\npan (toasters available), croissants, cheese, fruit and some tempting pastries.The location is not bad, \n\njust off the Cromwell Road. It's a few minutes walk away from Gloucester Road and Earl's Court Tube \n\nStations. The Natural History Museum, Science Museum and the Victoria and Albert Museums are a \n\n10-15 min. walk away. Hyde Park is a little further. \n\nReviewer: Hsiung Chuang \n\n\n",
+            "size": 118758,
+            "last_modified": "2019-10-22T09:12:18Z"
+        }
+    ]
+}
