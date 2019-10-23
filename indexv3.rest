@@ -1,0 +1,226 @@
+PUT https://grup7azsearch.search.windows.net/indexes/margiesidxv3en?api-version=2019-05-06 
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+
+{  
+  "name": "margiesidxv3en",  
+  "fields": [  
+    {  
+      "name": "id",  
+      "type": "Edm.String",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": true,
+      "retrievable": true,
+      "analyzer": "en.lucene"
+    },
+    {  
+      "name": "url",  
+      "type": "Edm.String",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true,
+      "analyzer": "en.lucene"
+    },
+    {        
+      "name": "file_name",  
+      "type": "Edm.String",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true,
+      "analyzer": "en.lucene"
+    },
+    {  
+      "name": "content",  
+      "type": "Edm.String",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true,
+      "analyzer": "en.lucene"
+    },
+    {  
+      "name": "size",  
+      "type": "Edm.Int64",  
+      "searchable": false,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "last_modified",  
+      "type": "Edm.DateTimeOffset",  
+      "searchable": false,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "organizations",  
+      "type": "Collection(Edm.String)",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "keyPhrases",  
+      "type": "Collection(Edm.String)",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "persons",  
+      "type": "Collection(Edm.String)",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "locations",  
+      "type": "Collection(Edm.String)",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "urls",  
+      "type": "Collection(Edm.String)",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "datetimes",  
+      "type": "Collection(Edm.DateTimeOffset)",  
+      "searchable": false,
+      "filterable": true,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "sentiment_score",  
+      "type": "Edm.Double",  
+      "searchable": false,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "enriched",  
+      "type": "Edm.String",  
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "image_info",  
+      "type": "Collection(Edm.String)",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+    "name": "merged_text",  
+    "type": "Edm.String",  
+    "searchable": true,
+    "filterable": false,
+    "sortable": false,
+    "facetable": false,
+    "key": false,
+    "retrievable": true
+    },
+    {
+        "name": "description",
+        "type": "Collection(Edm.ComplexType)",
+        "fields": [
+            {
+                "name": "tags",
+                "type": "Collection(Edm.String)",
+                "searchable": true,
+                "filterable": true,
+                "facetable": false
+            },
+            {
+                "name": "captions",
+                "type": "Collection(Edm.ComplexType)",
+                "fields": [
+                    {
+                        "name": "text",
+                        "type": "Edm.String",
+                        "searchable": true,
+                        "filterable": true,
+                        "facetable": false
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "Edm.Double",
+                        "searchable": false,
+                        "filterable": false,
+                        "facetable": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "image_tags",
+        "type": "Collection(Edm.ComplexType)",
+        "fields": [
+            {
+                "name": "name",
+                "type": "Edm.String",
+                "searchable": true,
+                "filterable": false,
+                "facetable": false
+            },
+            {
+                "name": "confidence",
+                "type": "Edm.Double",
+                "searchable": false,
+                "filterable": false,
+                "facetable": false
+            }
+        ]
+    }
+  ]   
+}  
