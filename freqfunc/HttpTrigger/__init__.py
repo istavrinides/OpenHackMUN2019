@@ -15,6 +15,7 @@ class Response(object):
                
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
+    headers = {"Content-type": "application/json"}
     logging.info('Python HTTP trigger function processed a request.')
 
     body = None
@@ -47,7 +48,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     ret = json.dumps(values_dict)
 
-    return func.HttpResponse(ret)
+    return func.HttpResponse(ret, headers=headers)
 
     
 
