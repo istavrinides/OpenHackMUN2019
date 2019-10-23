@@ -1,0 +1,14 @@
+PUT https://grup7azsearch.search.windows.net/synonymmaps/mysynonyms?api-version=2019-05-06
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+
+{
+   "name":"mysynonyms",
+   "format":"solr",
+   "synonyms": "
+      USA, United States, America, United States of America \n
+      UK, United Kingdom, Britain, Great Britain\n
+      UAE, United Arab Emirates, Emirates"
+}
+
+####
