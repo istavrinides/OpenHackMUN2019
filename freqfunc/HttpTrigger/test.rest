@@ -1,0 +1,29 @@
+POST http://customskillsfunc.azurewebsites.net/api/HttpTrigger?code=ncuePAx4zrFa1dGaTBxsZ3PSWwYwZaqzlMimFzIozI7UqSPefk78mQ==
+
+{
+    "values": [
+      {
+        "recordId": "a1",
+        "data":
+           {
+             "merged_text": 
+                "This is a contract that was issues on November 3, 2017 and that involves... "
+           }
+      },
+      {
+        "recordId": "b5",
+        "data":
+           {
+             "merged_text": 
+                "In the City of Seattle, WA on February 5, 2018 there was a decision made..."
+           }
+      },
+      {
+        "recordId": "c3",
+        "data":
+           {
+             "merged_text": "trtretre"
+           }
+      }
+    ]
+}
