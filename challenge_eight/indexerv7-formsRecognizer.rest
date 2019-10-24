@@ -1,0 +1,53 @@
+PUT https://grup7azsearch.search.windows.net/indexers/margiesidxrv7forms?api-version=2019-05-06 
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+
+{   
+    "name" : "margiesidxrv7forms",
+    "dataSourceName" : "margiesdsforms",  
+    "targetIndexName" : "margiesidxv7",
+    "skillsetName": "margiescustomforms",
+    "fieldMappings" : [
+        { "sourceFieldName" : "metadata_storage_path", "targetFieldName" : "id",
+          "mappingFunction": {
+              "name": "base64Encode"
+          } },
+        { "sourceFieldName" : "metadata_storage_path", 
+            "targetFieldName" : "url" },
+        { "sourceFieldName" : "metadata_storage_name", 
+        "targetFieldName" : "file_name" },
+        { "sourceFieldName" : "content", 
+        "targetFieldName" : "content" },
+        { "sourceFieldName" : "metadata_storage_sas_token", 
+        "targetFieldName" : "sas" },
+        { "sourceFieldName" : "metadata_storage_size", 
+        "targetFieldName" : "size" },
+        { "sourceFieldName" : "metadata_storage_last_modified", 
+        "targetFieldName" : "last_modified" }
+    ],
+    "outputFieldMappings" :
+    [
+        {
+            "sourceFieldName": "/document/form_result_name",
+            "targetFieldName": "form_result_name"
+        },
+        {
+            "sourceFieldName": "/document/form_result_dep_date",
+            "targetFieldName": "form_result_dep_date"
+        },
+        {
+            "sourceFieldName": "/document/form_result_dest_city",
+            "targetFieldName": "form_result_dest_city"
+        },
+        {
+            "sourceFieldName": "/document/form_result_ret_date",
+            "targetFieldName": "form_result_ret_date"
+        }
+    ]
+}
+
+
+#####
+
+POST https://grup7azsearch.search.windows.net/indexers/margiesidxrv2/run?api-version=2019-05-06
+    api-key: D1B2DF3F5AC1482E5557FE00092E2677

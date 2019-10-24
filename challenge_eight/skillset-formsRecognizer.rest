@@ -1,0 +1,43 @@
+PUT https://grup7azsearch.search.windows.net/skillsets/margiescustomforms?api-version=2019-05-06-preview
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+Content-Type: application/json
+
+{
+    "name": "margiescustomforms",
+    "skills": [
+        {
+            "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+            "description": "Our new Bing entity search custom skill",
+            "uri": "https://customskillsfunc.azurewebsites.net/api/FormRec",
+            "context": "/document",
+            "inputs": [
+                {
+                    "name": "url",
+                    "source": "/document/url"
+                },
+                {
+                    "name": "sas",
+                    "source": "/document/sas"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "form_result",
+                    "targetName": "form_result_name"
+                },
+                {
+                    "name": "form_result/Departure Date",
+                    "targetName": "form_result_dep_date"
+                },
+                {
+                    "name": "form_result/Destination City",
+                    "targetName": "form_result_dest_city"
+                },
+                {
+                    "name": "form_result/Return Date",
+                    "targetName": "form_result_ret_date"
+                }
+            ]
+        }
+    ]
+}

@@ -52,7 +52,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             logging.info("!!!!!!!!! Response status code: %d" % resp.status_code)    
             logging.info("!!!!!!!!! Response body:\n%s" % resp.json())
 
-            result = []
+            result = {}
             form_resp = resp.json()
 
             for formsField in form_resp['pages'][0]["keyValuePairs"]:
