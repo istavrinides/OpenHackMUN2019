@@ -108,6 +108,16 @@ api-key: D1B2DF3F5AC1482E5557FE00092E2677
       "facetable": false,
       "key": false,
       "retrievable": true
-    }                           
+    },    
+    {  
+      "name": "enriched",  
+      "type": "Edm.String",  
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    }             
 ]
 }  
