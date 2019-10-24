@@ -191,11 +191,11 @@ Content-Type: application/json
                 },
                 {
                     "name": "sentiment_score",
-                    "source": "/document/sentiment_score"
+                    "source": "/document/mySentiment"
                 },
                 {
                     "name": "topTen",
-                    "source": "/document/top_words/*"
+                    "source": "/document/top_words/words/*"
                 },
                 {
                     "name": "locations",
@@ -227,27 +227,23 @@ Content-Type: application/json
                         "inputs": [
                             {
                                 "name": "file_id",
-                                "source": "/document/tableprojection"
+                                "source": "/document/tableprojection/file_id"
                             },
                             {
                                 "name": "file_name",
-                                "source": "/document/tableprojection"
+                                "source": "/document/tableprojection/file_name"
                             },
                             {
                                 "name": "file_url",
-                                "source": "/document/tableprojection"
+                                "source": "/document/tableprojection/file_url"
                             }
                         ]
                     },
                     {
                         "tableName": "TopWords",
                         "generatedKeyName": "topword_id",
-                        "sourceContext": "/document/top_words/*",
+                        "sourceContext": "/document/tableprojection/topTen/*",
                         "inputs": [
-                            {
-                                "name": "document_id",
-                                "source": "/document/tableprojection"
-                            },
                             {
                                 "name": "word",
                                 "source": "/document/tableprojection/topTen/*"
@@ -257,27 +253,19 @@ Content-Type: application/json
                     {
                         "tableName": "SentimentScores",
                         "generatedKeyName": "sentiment_id",
-                        "sourceContext": "/document/mySentiment",
+                        "sourceContext": "/document/tableprojection/sentiment_score",
                         "inputs": [
                             {
-                                "name": "document_id",
-                                "source": "/document/tableprojection"
-                            },
-                            {
                                 "name": "sentiment_score",
-                                "source": "/document/tableprojection"
+                                "source": "/document/tableprojection/sentiment_score"
                             }
                         ]
                     },
                     {
                         "tableName": "Locations",
                         "generatedKeyName": "location_id",
-                        "sourceContext": "/document/locations",
+                        "sourceContext": "/document/tableprojection/locations/*",
                         "inputs": [
-                            {
-                                "name": "document_id",
-                                "source": "/document/tableprojection"
-                            },
                             {
                                 "name": "location",
                                 "source": "/document/tableprojection/locations/*"
