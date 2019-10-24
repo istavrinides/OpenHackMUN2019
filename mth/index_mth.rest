@@ -1,0 +1,74 @@
+
+PUT https://grup7azsearch.search.windows.net/indexes/margiesidxmth?api-version=2019-05-06 
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+
+{  
+  "name": "margiesidxmth",  
+  "fields": [  
+    {  
+      "name": "id",  
+      "type": "Edm.String",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": true,
+      "retrievable": true,
+      "analyzer": "en.lucene"
+    },
+    {  
+      "name": "url",  
+      "type": "Edm.String",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true,
+      "analyzer": "en.lucene"
+    },
+    {        
+      "name": "file_name",  
+      "type": "Edm.String",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true,
+      "analyzer": "en.lucene"
+    },
+    {  
+      "name": "content",  
+      "type": "Edm.String",  
+      "searchable": true,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true,
+      "analyzer": "en.lucene"
+    },
+    {  
+      "name": "size",  
+      "type": "Edm.Int64",  
+      "searchable": false,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    },
+    {  
+      "name": "last_modified",  
+      "type": "Edm.DateTimeOffset",  
+      "searchable": false,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false,
+      "key": false,
+      "retrievable": true
+    }
+  ]   
+}  

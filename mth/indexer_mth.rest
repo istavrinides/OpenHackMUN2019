@@ -1,0 +1,63 @@
+PUT https://grup7azsearch.search.windows.net/indexers/margiesidxrmth?api-version=2019-05-06 
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+
+{   
+    "name" : "margiesidxrmth",
+    "dataSourceName" : "margiesds",  
+    "targetIndexName" : "margiesidxmth",
+    "skillsetName": "margiessentimentmth",
+    "fieldMappings" : [
+        { "sourceFieldName" : "metadata_storage_path", "targetFieldName" : "id",
+          "mappingFunction": {
+              "name": "base64Encode"
+          } },
+        { "sourceFieldName" : "metadata_storage_path", 
+            "targetFieldName" : "url" },
+        { "sourceFieldName" : "metadata_storage_name", 
+        "targetFieldName" : "file_name" },
+        { "sourceFieldName" : "content", 
+        "targetFieldName" : "content" },
+        { "sourceFieldName" : "metadata_storage_size", 
+        "targetFieldName" : "size" },
+        { "sourceFieldName" : "metadata_storage_last_modified", 
+        "targetFieldName" : "last_modified" }
+    ],
+    "outputFieldMappings" :
+    [
+        {
+            "sourceFieldName" : "/document/organizations",
+            "targetFieldName" : "organizations"
+        },
+        {
+            "sourceFieldName" : "/document/myKeyPhrases",
+            "targetFieldName" : "keyPhrases"
+        },
+        {
+            "sourceFieldName": "/document/persons",
+            "targetFieldName": "persons"
+        },
+        {
+            "sourceFieldName": "/document/locations",
+            "targetFieldName": "locations"
+        },
+        {
+            "sourceFieldName": "/document/urls",
+            "targetFieldName": "urls"
+        },
+        {
+            "sourceFieldName": "/document/dateTimes",
+            "targetFieldName": "dateTimes"
+        },
+        {
+            "sourceFieldName": "/document/mySentiment",
+            "targetFieldName": "sentiment_score"
+        }
+    ]
+}
+
+
+#####
+
+POST https://grup7azsearch.search.windows.net/indexers/margiesidxrmth/run?api-version=2019-05-06
+    api-key: D1B2DF3F5AC1482E5557FE00092E2677
