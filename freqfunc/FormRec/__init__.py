@@ -7,7 +7,7 @@ import azure.functions as func
 # https://g7storage.blob.core.windows.net/all-forms?st=2019-10-24T09%3A21%3A08Z&se=2019-10-25T09%3A21%3A08Z&sp=rl&sv=2018-03-28&sr=c&sig=rEwSIlrn0aO2DP0aQ1LQkUpCE74P3Cw1W3BG8TDy7Kk%3D
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    headers = {"Content-type": "application/json"}
+    headers_final = {"Content-type": "application/json"}
     logging.info('Form Recognizer HTTP trigger function processed a request.')
 
     body = None
@@ -88,6 +88,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     ret = json.dumps(values_dict)
 
-    return func.HttpResponse(ret, headers=headers)
+    return func.HttpResponse(ret, headers=headers_final)
 
     
