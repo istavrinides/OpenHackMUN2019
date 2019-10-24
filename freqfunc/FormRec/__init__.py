@@ -56,9 +56,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             form_resp = resp.json()
 
             for formsField in form_resp['pages'][0]["keyValuePairs"]:
-                result.append({
-                    formsField['key'][0]['text'] : formsField['value'][0]['text']
-                })
+                result[formsField['key'][0]['text']] =  formsField['value'][0]['text']
             
             record_dict = {
                 'recordId': item['recordId'],
