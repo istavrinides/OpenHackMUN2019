@@ -22,19 +22,19 @@ Content-Type: application/json
             ],
             "outputs": [
                 {
-                    "name": "form_result/Name",
+                    "name": "Name:",
                     "targetName": "form_result_name"
                 },
                 {
-                    "name": "form_result/Departure Date",
+                    "name": "Departure Date:",
                     "targetName": "form_result_dep_date"
                 },
                 {
-                    "name": "form_result/Destination City",
+                    "name": "Destination City:",
                     "targetName": "form_result_dest_city"
                 },
                 {
-                    "name": "form_result/Return Date",
+                    "name": "Return Date:",
                     "targetName": "form_result_ret_date"
                 }
             ]
