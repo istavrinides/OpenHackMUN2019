@@ -72,9 +72,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             
             record_dict = {
                 'recordId': item['recordId'],
-                'data': {
-                    'form_result': keyswithvalues
-                }
+                'data': keyswithvalues
             }
 
             values.append(record_dict)
