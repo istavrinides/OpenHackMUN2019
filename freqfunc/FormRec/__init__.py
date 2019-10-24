@@ -55,13 +55,25 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             result = {}
             form_resp = resp.json()
 
-            for formsField in form_resp['pages'][0]["keyValuePairs"]:
-                result[formsField['key'][0]['text']] =  formsField['value'][0]['text']
+            keys = ['Name:', 'Departure Date:', 'Return Date:', 'Destination City:', 'Destination Country:']
+ 
+            keyswithvalues = {}
+        
+            for page in form_resp['pages']:
+                for keyvaluepair in page['keyValuePairs']:
+                    key_txt = "".join([x['text'] for x in keyvaluepair['key']])
+                    if key_txt in keys:
+                        #print('key: %s' % key)
+                        vals = [x['text'] for x in keyvaluepair['value']]
+                        val_txt = "".join([x['text'] for x in keyvaluepair['value']])
+                        #DEBUG print('key: %s' % key_txt, 'value: %s' % " ".join(vals))
+                        keyswithvalues.update( {key_txt : val_txt} )
+                        #DEBUG print(keyswithvalues)
             
             record_dict = {
                 'recordId': item['recordId'],
                 'data': {
-                    'form_result': result
+                    'form_result': keyswithvalues
                 }
             }
 

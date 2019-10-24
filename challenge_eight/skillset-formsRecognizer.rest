@@ -22,7 +22,7 @@ Content-Type: application/json
             ],
             "outputs": [
                 {
-                    "name": "form_result",
+                    "name": "form_result/Name",
                     "targetName": "form_result_name"
                 },
                 {
