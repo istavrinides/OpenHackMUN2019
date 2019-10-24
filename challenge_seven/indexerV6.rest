@@ -1,0 +1,89 @@
+PUT https://grup7azsearch.search.windows.net/indexers/margiesidxrv6?api-version=2019-05-06-preview
+Content-Type: application/json  
+api-key: D1B2DF3F5AC1482E5557FE00092E2677
+
+{   
+    "name" : "margiesidxrv6",
+    "dataSourceName" : "margiesds",  
+    "targetIndexName" : "margiesidxv5",
+    "skillsetName": "margiescustomwithks",
+    "fieldMappings" : [
+        { "sourceFieldName" : "metadata_storage_path", "targetFieldName" : "id",
+          "mappingFunction": {
+              "name": "base64Encode"
+          } },
+        { "sourceFieldName" : "metadata_storage_path", 
+            "targetFieldName" : "url" },
+        { "sourceFieldName" : "metadata_storage_name", 
+        "targetFieldName" : "file_name" },
+        { "sourceFieldName" : "content", 
+        "targetFieldName" : "content" },
+        { "sourceFieldName" : "metadata_storage_size", 
+        "targetFieldName" : "size" },
+        { "sourceFieldName" : "metadata_storage_last_modified", 
+        "targetFieldName" : "last_modified" }
+    ],
+    "outputFieldMappings" :
+    [
+        {
+            "sourceFieldName" : "/document/organizations",
+            "targetFieldName" : "organizations"
+        },
+        {
+            "sourceFieldName" : "/document/myKeyPhrases",
+            "targetFieldName" : "keyPhrases"
+        },
+        {
+            "sourceFieldName": "/document/persons",
+            "targetFieldName": "persons"
+        },
+        {
+            "sourceFieldName": "/document/locations",
+            "targetFieldName": "locations"
+        },
+        {
+            "sourceFieldName": "/document/urls",
+            "targetFieldName": "urls"
+        },
+        {
+            "sourceFieldName": "/document/dateTimes",
+            "targetFieldName": "dateTimes"
+        },
+        {
+            "sourceFieldName": "/document/mySentiment",
+            "targetFieldName": "sentiment_score"
+        },
+        {
+            "sourceFieldName": "/document/normalized_images/*/tags/*",
+            "targetFieldName": "image_tags"
+        },
+        {
+            "sourceFieldName": "/document/normalized_images/*/description",
+            "targetFieldName": "description"
+        },
+        {
+            "sourceFieldName": "/document/merged_text",
+            "targetFieldName": "merged_text"
+        },
+        {
+            "sourceFieldName": "/document/normalized_images/*/myText",
+            "targetFieldName": "image_info"
+        },
+        {
+            "sourceFieldName": "/document/top_words/words",
+            "targetFieldName": "top_words"
+        }
+    ],
+    "parameters": {
+        "configuration": {
+            "dataToExtract":"contentAndMetadata",
+            "imageAction":"generateNormalizedImages"
+        }
+    }
+}
+
+
+#####
+
+POST https://grup7azsearch.search.windows.net/indexers/margiesidxrv2/run?api-version=2019-05-06
+    api-key: D1B2DF3F5AC1482E5557FE00092E2677
